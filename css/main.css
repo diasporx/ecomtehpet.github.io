@@ -150,9 +150,9 @@ ul li {
   #header.fixed .nav-toggle {
     top: 15px; }
   #header.fixed .navigation a:hover{
-      color: rgb(69, 143, 228); }
+      color: #1e3958;; }
   #header.fixed .navigation a.active {
-      color: rgb(69, 143, 228); }
+      color: #1e3958;; }
 
   
 

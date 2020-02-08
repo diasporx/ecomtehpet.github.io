@@ -140,8 +140,8 @@ ul li {
 } 
 
 #header.fixed {
-    background-color: rgb(255, 255, 255);
-    border-bottom: 2px solid rgb(69, 143, 228);
+    background-color: rgb(69, 143, 228);
+    /*border-bottom: 2px solid rgb(69, 143, 228);*/
     transition: all ease-in-out .3s;
 }
   #header.fixed .header-content {
@@ -175,7 +175,7 @@ ul li {
     vertical-align: center;
     margin: 9px auto; }
   .navigation a {
-    color: #000;
+    color: #fff;
     font-size: 16px;
     font-weight: 700;
     margin-left: 40px;
@@ -185,7 +185,7 @@ ul li {
 
      }
     .navigation a:hover, .navigation a.active {
-      color: rgb(245, 250, 253); }
+      color: #1e3958; }
 
 .nav-toggle {
   display: none;

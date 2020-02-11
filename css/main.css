@@ -332,14 +332,14 @@ ul li {
   $Banner
 ========================================================================== */
 .banner {
-  /*background-image: url(../images/bcg.jpg);*/
-  background: #458fe4;
+  background-image: url(../images/bcg.jpg);
+  /*background: #458fe4;*/
   background-repeat: no-repeat;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  min-height: 100vh; }
+  /*min-height: 100vh;*/ }
 
 .banner-text {
   padding-top: 25%; }

@@ -332,7 +332,8 @@ ul li {
   $Banner
 ========================================================================== */
 .banner {
-  background-image: url(../images/bcg.jpg);
+  /*background-image: url(../images/bcg.jpg);*/
+  background: #458fe4;
   background-repeat: no-repeat;
   -moz-background-size: cover;
   -o-background-size: cover;

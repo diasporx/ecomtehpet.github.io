@@ -101,6 +101,7 @@ ul li {
 #header {
   position: fixed;
   width: 100%;
+  background: rgba(255,255,255,0.7);
   z-index: 999; 
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -110,7 +111,7 @@ ul li {
   #header .header-content {
     /*margin: 0 auto;*/
     display: flex;
-    max-width: 1170px;
+    /*max-width: 1170px;*/
     padding: 5px 0;
     width: 100%;
     -moz-transition: padding 0.3s;
@@ -120,7 +121,7 @@ ul li {
      }
   #header .logo {
     float: left;
-    margin: 10px auto;}
+}
 
 .primary-nav {
   margin: 10px 0;
@@ -140,8 +141,7 @@ ul li {
 } 
 
 #header.fixed {
-    background-color: rgba(94, 179, 46, 0.85);
-    /*border-bottom: 2px solid rgb(69, 143, 228);*/
+    background-color: rgba(255, 255, 255, 0.65);
     transition: all ease-in-out .3s;
 }
   #header.fixed .header-content {
@@ -155,7 +155,11 @@ ul li {
       color: #1e3958;; }
 
   
-
+nav.scrl {
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
 .navigation.open {
   color:rgba(255, 255, 255, 0.75);;
   opacity: 0.9;
@@ -169,13 +173,14 @@ ul li {
   float: left;
   margin: 0 auto;
    }
+   
   .navigation li {
     display: inline-block;
     align-content: center;
     vertical-align: center;
-    margin: 9px auto; }
+    margin: 25px auto; }
   .navigation a {
-    color: #fff;
+    color: #181861;
     font-size: 16px;
     font-weight: 700;
     margin-left: 40px;
@@ -185,7 +190,7 @@ ul li {
 
      }
     .navigation a:hover, .navigation a.active {
-      color: #1e3958; }
+      color: #446994; }
 
 .nav-toggle {
   display: none;
@@ -339,7 +344,8 @@ ul li {
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  min-height: 100vh; }
+  min-height: 100vh; 
+}
 
 .banner-text {
   padding-top: 25%; }

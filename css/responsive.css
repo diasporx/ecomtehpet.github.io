@@ -5,6 +5,7 @@
 }
 @media screen and (max-width: 1300px){
   nav.scrl {display: none;}
+  nav.scrlr {display: none;}
 }
 @media screen and (max-width: 1024px) {
   #header .header-content {

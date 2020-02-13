@@ -139,7 +139,21 @@ ul li {
   /*margin-right: 10px;*/
   margin-bottom: 0px;
 } 
-
+.scrlr {
+  float: right;
+  width: 175px;
+  margin-right: 100px;
+}
+nav.scrlr>ul>li {
+  display: inline-block;
+    align-content: center;
+    margin: 15px auto;
+        color: #181861;
+    font-size: 18px;
+}
+nav.scrlr>ul>li:last-child {
+  margin: 0;
+}
 #header.fixed {
     background-color: rgba(255, 255, 255, 0.65);
     transition: all ease-in-out .3s;
@@ -156,9 +170,12 @@ ul li {
 
   
 nav.scrl {
-    position: absolute;
-    left: 150px;
-    top: 10px;
+    /*position: absolute;*/
+    /*left: 150px;
+    top: 10px;*/
+    width: 175px;
+  margin-left: 100px;
+    float: left;
 }
 .navigation.open {
   color:rgba(255, 255, 255, 0.75);;
@@ -340,10 +357,10 @@ nav.scrl {
   background-image: url(../images/bcg.jpg);
   /*background: #458fe4;*/
   background-repeat: no-repeat;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+  -moz-background-size: 125%;
+  -o-background-size: 125%;
+  -webkit-background-size: 125%;
+  background-size: 125%;
   min-height: 100vh; 
 }
 
